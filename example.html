@@ -15,7 +15,17 @@
 	</div>
 
 	<script>
-		
+
+	function updateText() {
+		var newText = $('#replaceThis').val();
+
+		$('#result').text(newText);
+	}
+
+	$('.btn').click(function() {
+		updateText();
+	});
+	
 	</script>
 </body>
 </html>

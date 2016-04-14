@@ -16,5 +16,5 @@ function generateMadlib() {
 $(document).ready(function() {
 	$('.btn').click(function() {
 		generateMadLib();	
-	})
+	});
 });
