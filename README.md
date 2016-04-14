@@ -2,6 +2,7 @@
 
 1. Fork this repository and create a new workspace in cloud9
 2. Create a story with ten parts of speech
+3. Lost? Google your problem first and then raise your hand if you still need help. Also check out `example.html`
 
 In the following files...
 
@@ -19,7 +20,7 @@ inputValue = $('#newIDHere').val();
 story = story.replace("PLURAL_NOUN", inputValue);
 ```
 * Two of the parts of speech are already there for you. You will need to add 8 more. Get creative!
-* bonus: bold the words that the user added
+* __bonus__: bold the words that the user added
 
 ### bonus: style.css
 Style your madlibs! 
